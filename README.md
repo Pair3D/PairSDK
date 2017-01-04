@@ -5,7 +5,7 @@ Welcome to the Pair SDK.
 ## Setup ##
 
 ### 1. Get your SDK License Key ###
- * Contact Pair for a key.
+ * Contact Pair for a key: contact@pair3d.com
 
 ### 2. Integrate The SDK With Your App ###
 * Download and extract the PairSDK.
@@ -18,15 +18,8 @@ Welcome to the Pair SDK.
 
 ### 3. Using The SDK In Your App ###
 * The SDK requires access to the camera. Add the `NSCameraUsageDescription` key to your apps Info.plist file.
-* In your Application delegate, import Pair.h and inside applicationDidFinishLaunching: add: `Pair.licenseKey = @"YOUR_PAIR_SDK_KEY";`
-
-`
- #import "Pair.h"
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Replace YOUR_PAIR_SDK_KEY with the api key given to you by Pair.
-    `Pair.licenseKey = @"YOUR_PAIR_SDK_KEY";
-    // Your code
-}
-`
+* In your Application delegate, add `#import "Pair.h"`and inside applicationDidFinishLaunching: add: `Pair.licenseKey = @"YOUR_PAIR_SDK_KEY";` Replace YOUR_PAIR_SDK_KEY with the key provided to you by Pair.
 * Add the PairView class to one of your view controllers just like you would attach any other UIView. Note that only one can be added at a time.
 * Invoke `resume` on the PairView instance: `[self.pairView resume];`
+* Create a PairAsset object. See the [PairSDKSampleApp](https://github.com/Pair-3D/PairSDKSampleApp) project for examples on how to do this.
+* Add the PairAsset object to the PairView using `addPairAsset:`.
