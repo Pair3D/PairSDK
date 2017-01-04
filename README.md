@@ -5,7 +5,7 @@ Welcome to the Pair SDK.
 ## Setup ##
 
 ### 1. Get your SDK License Key ###
- * Contact Pair for a key.
+ * Contact Pair for a key: contact@pair3d.com
 
 ### 2. Integrate The SDK With Your App ###
 * Download and extract the PairSDK.
