@@ -22,5 +22,5 @@ Welcome to the Pair SDK.
 * In your Application delegate, add `#import "Pair.h"`and inside applicationDidFinishLaunching: add: `Pair.licenseKey = @"YOUR_PAIR_SDK_KEY";` Replace YOUR_PAIR_SDK_KEY with the key provided to you by Pair.
 * Add the PairView class to one of your view controllers just like you would attach any other UIView. Note that only one can be added at a time.
 * Invoke `resume` on the PairView instance: `[self.pairView resume];`
-* Create a PairAsset object. See the [PairSDKSampleApp](https://github.com/Pair-3D/PairSDKSampleApp) project for examples on how to do this.
+* Create a PairAsset object. See the [PairSDKSampleApp](https://github.com/Pair3D/PairSDKSampleApp) project for examples on how to do this.
 * Add the PairAsset object to the PairView using `addPairAsset:`.
