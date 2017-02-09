@@ -9,7 +9,7 @@ Welcome to the Pair SDK.
 
 ### 2. Integrate The SDK With Your App ###
 * Download and extract the PairSDK.
-* Add the `include` and `PairSDKAssets` folders to your project.
+* Add the `include` folders to your project.
 * Navigate to your app's target Build Settings. Add to `Header Search Paths` the relative path to the include folder . Example 'PairSDK/include`.
 * Set `Enable Bitcode` to `NO`.
 * Add `Other Linker Flags` `-l"stdc++"`.
